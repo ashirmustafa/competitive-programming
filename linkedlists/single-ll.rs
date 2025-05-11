@@ -15,7 +15,7 @@ impl SinglyLinkedList {
     fn push_front(&mut self, val: i32) {
         let new_node = Box::new(Node {
             value: val,
-            next: self.head.take(),
+            next: self.head.take(), 
         });
         self.head = Some(new_node);
     }
@@ -28,4 +28,15 @@ impl SinglyLinkedList {
         }
         println!("None");
     }
+}
+
+fn main() {
+    let mut list = SinglyLinkedList::new();
+
+    list.push_front(10);
+    list.push_front(20);
+    list.push_front(30);
+
+    println!("Singly Linked List:");
+    list.print(); 
 }

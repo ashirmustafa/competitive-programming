@@ -1,0 +1,7 @@
+# Ignore all .exe files (Windows executables)
+*.exe
+
+# Ignore all .pdb files (debugging symbols)
+*.pdb
+
+/dsa_practice
