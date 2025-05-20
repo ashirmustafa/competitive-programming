@@ -5,3 +5,7 @@
 *.pdb
 
 /dsa_practice
+
+/ignored.py
+/ignored.cpp
+/ignored.rs
