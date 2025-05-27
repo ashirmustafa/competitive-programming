@@ -3,7 +3,7 @@
 
 # Ignore all .pdb files (debugging symbols)
 *.pdb
-
+*.exe
 /dsa_practice
 
 /ignored.py
