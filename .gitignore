@@ -4,6 +4,7 @@
 # Ignore all .pdb files (debugging symbols)
 *.pdb
 *.exe
+/.vscode
 /dsa_practice
 
 /ignored.py
